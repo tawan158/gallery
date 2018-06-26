@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="zh-Hant-TW">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+ 
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="js/jquery-3.3.1.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+ 
+    <title>Bootstrap nav1</title>
+  </head>
+  <body>
+
+    <!-- 引入插件 bootstrap-4-multi-dropdown-navbar -->
+    <link href="multi-dropdown-navbar/bootstrap-4-navbar.css" rel="stylesheet">
+    <script src="multi-dropdown-navbar/bootstrap-4-navbar.js"></script>
+
+
+    <!-- Static navbar -->
+    <nav class="navbar navbar-expand-md navbar-light bg-light">
+      <div class="container">
+        <a class="navbar-brand" href="#">Navbar</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+          <ul class="navbar-nav">
+              <li class="nav-item active">
+                  <a class="nav-link" href="#">首頁 <span class="sr-only">(current)</span></a>
+              </li>
+              <li class="nav-item">
+                  <a class="nav-link" href="#" target="_blank">另開視窗</a>
+              </li>
+              <li class="nav-item">
+                  <a class="nav-link" href="#">Pricing</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="https://bootstrapthemes.co" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    Dropdown link
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                    <li><a class="dropdown-item" href="#">Action</a></li>
+                    <li><a class="dropdown-item" href="#">Another action</a></li>
+                    <li><a class="dropdown-item dropdown-toggle" href="#">第二層</a>
+                      <ul class="dropdown-menu">
+                          <li><a class="dropdown-item" href="#">第二層 action</a></li>
+                          <li><a class="dropdown-item" href="#">Another submenu action</a></li>
+
+
+                          <li><a class="dropdown-item dropdown-toggle" href="#">第三層</a>
+                            <ul class="dropdown-menu">
+                              <li><a class="dropdown-item" href="#">第三層 action aa</a></li>
+                              <li><a class="dropdown-item" href="#">Another subsubmenu action</a></li>
+                            </ul>
+                          </li>
+                          <li><a class="dropdown-item dropdown-toggle" href="#">Second subsubmenu</a>
+                            <ul class="dropdown-menu">
+                              <li><a class="dropdown-item" href="#">第三層 action bb</a></li>
+                              <li><a class="dropdown-item" href="#">Another subsubmenu action</a></li>
+                            </ul>
+                          </li>
+                      </ul>
+                    </li>
+                    <li><a class="dropdown-item dropdown-toggle" href="#">第二層 2</a>
+                      <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" href="#">第二層 action 2</a></li>
+                        <li><a class="dropdown-item" href="#">Another submenu action 2</a></li>
+
+                        <li><a class="dropdown-item dropdown-toggle" href="#">第三層</a>
+                          <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#">第四層 action 1 3</a></li>
+                            <li><a class="dropdown-item" href="#">Another subsubmenu action 2 3</a></li>
+                          </ul>
+                        </li>
+                        <li><a class="dropdown-item dropdown-toggle" href="#">Second subsubmenu 3</a>
+                          <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#">第三層 action 3 </a></li>
+                            <li><a class="dropdown-item" href="#">Another subsubmenu action 3</a></li>
+                          </ul>
+                        </li>
+                      </ul>
+                    </li>
+                </ul>
+              </li>
+          </ul>
+        </div>
+      </div>  
+    </nav>
+ 
+  </body>
+</html>
